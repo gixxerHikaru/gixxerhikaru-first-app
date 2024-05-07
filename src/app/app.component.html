@@ -55,11 +55,18 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <iframe
+        id="inlineFrameExample"
+        title="hikaru-official"
+        width="100%"
+        height="100%"
+        src="https://www.oscarpro.co.jp/talent/hikaru_takahashi/index.html">
+      </iframe>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
+      <h3>Hello, {{ title }}</h3>
+      <p>Congratulations! Your app is running. 🎉</p>
       <div class="pill-group">
         @for (item of [
           { title: 'Explore the Docs', link: 'https://angular.dev' },
